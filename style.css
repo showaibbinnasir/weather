@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#error{
+    display: none;
+    color: red;
+}
+
+
+.banner_pic{
+    height: 1200px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+}
+
+.search_bar{
+    
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 10px;
+    margin-top: 300px;
+}
+.search_bar p{
+    color: aliceblue;
+}
+
+
+#cityname{
+    border: none;
+    padding: 20px;
+    width: 400px;
+    font-size: 22px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 10px black;
+}
+#searchbtn{
+    border: none;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 22px;
+    background-color: green;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    margin-left: 10px;
+}
+
+.content{
+    color: rgb(255, 255, 255);
+    background-color: green;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    opacity: 70%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
+#credit{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    opacity: 50%;
+}
+@media only screen and (max-width: 480px){
+    #cityname{
+        border: none;
+        padding: 10px;
+        width: 200px;
+        font-size: 18px;
+        border-radius: 50px;
+        background-color: aliceblue;
+        box-shadow: 5px 5px 10px black;
+    }
+    #searchbtn{
+        border: none;
+        padding: 10px;
+        border-radius: 40px;
+        font-size: 18px;
+        background-color: green;
+        color: white;
+        box-shadow: 5px 5px 10px black;
+    }
+    .search_bar{
+        margin-top: 150px;
+        
+    }
+}
+@media only screen and (max-width: 600px){
+    #cityname{
+        border: none;
+        padding: 10px;
+        width: 200px;
+        font-size: 18px;
+        border-radius: 50px;
+        background-color: aliceblue;
+        box-shadow: 5px 5px 10px black;
+    }
+    #searchbtn{
+        border: none;
+        padding: 10px;
+        border-radius: 40px;
+        font-size: 18px;
+        background-color: green;
+        color: white;
+        box-shadow: 5px 5px 10px black;
+    }
+}
+
